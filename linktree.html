@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Aella Nguyen — multimedia artist in Saigon. Explore my portfolio, find me on Instagram, or get in touch." />
+    <meta name="theme-color" content="#efefef" />
+    <title>Aella Nguyen — Links</title>
+    <link rel="stylesheet" href="https://use.typekit.net/lip7yto.css" />
+    <link rel="stylesheet" href="https://aellanguyen.github.io/general/styles.css" />
+    <style>
+      * { box-sizing: border-box; }
+      :root { color-scheme: light; }
+      body { margin: 0; color: #0c0c0c; background: #efefef; font-family: var(--body); }
+      body::before { content: ""; position: fixed; inset: 0; z-index: -1; background: linear-gradient(#efefefc9, #efefefc9), url("https://aellanguyen.github.io/assets/TEXTURE.png") center / cover; pointer-events: none; }
+      a { color: inherit; text-decoration: none; }
+      .page { min-height: 100vh; min-height: 100svh; display: flex; flex-direction: column; padding: clamp(20px, 4vw, 48px); }
+      .topline { display: flex; justify-content: space-between; gap: 16px; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+      main { width: min(100%, 560px); margin: auto; padding: 48px 0; text-align: center; }
+      .portrait { width: clamp(84px, 15vw, 112px); aspect-ratio: 1; border-radius: 50%; object-fit: cover; object-position: center; filter: grayscale(1); }
+      h1 { margin: 24px 0 10px; }
+      h1 img { display: block; width: 100%; height: auto; }
+      .intro { margin: 0; font-size: 12px; line-height: 1.6; }
+      .handle { display: inline-block; margin-top: 12px; font-size: 12px; text-decoration: underline; text-underline-offset: 4px; }
+      nav { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 32px; }
+      .link { display: flex; align-items: center; justify-content: center; min-height: 48px; padding: 10px 24px; font-size: clamp(16px, 2vw, 24px); font-weight: 400; line-height: 1.35; transition: opacity .2s ease; }
+      a:focus-visible { outline: 3px solid #7452b6; outline-offset: 5px; }
+      .phone { display: inline-block; padding: 16px 8px; margin-top: 16px; font-size: 12px; line-height: 1.5; }
+      .phone span { margin-right: 10px; font-size: 10px; text-transform: uppercase; letter-spacing: .08em; }
+      @media (hover: hover) { .link:hover { opacity: .45; } .phone:hover, .handle:hover { text-decoration: underline; text-underline-offset: 4px; } }
+      @media (max-width: 380px) { .page { padding: 20px 16px; } .topline { font-size: 9px; letter-spacing: .04em; } }
+      @media (prefers-reduced-motion: reduce) { .link { transition: none; } }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="topline"><span>Aella Nguyen</span><span>Multimedia artist / Saigon</span></header>
+      <main>
+        <img class="portrait" src="https://aellanguyen.github.io/assets/avatar.png" alt="Portrait of Aella Nguyen" width="112" height="112" />
+        <h1><img src="https://aellanguyen.github.io/assets/title1.webp" alt="Aella Nguyen" /></h1>
+        <p class="intro">multimedia artist / saigon</p>
+        <a class="handle" href="https://www.instagram.com/43114.zip/" target="_blank" rel="noopener noreferrer">@43114.zip</a>
+        <nav aria-label="Find my work and get in touch">
+          <a class="link" href="https://aellanguyen.github.io/">portfolio</a>
+          <a class="link" href="https://www.instagram.com/43114.zip/" target="_blank" rel="noopener noreferrer">instagram</a>
+          <a class="link" href="mailto:nghoangminhy@gmail.com">mail me</a>
+        </nav>
+        <a class="phone" href="tel:+84932781105"><span>Or call</span>+84 0932781105</a>
+      </main>
+    </div>
+  </body>
+</html>
+
